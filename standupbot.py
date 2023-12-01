@@ -1,3 +1,11 @@
+"""
+Make sure to replace 'YOUR_SLACK_TOKEN' with your actual Slack bot token.
+
+This example uses Flask as a simple web server to handle incoming events from Slack. When the bot is mentioned in a channel, it sends a stand-up message to the user who mentioned the bot.
+
+Remember to set up a Slack app, install it in your workspace, and obtain a bot token to use in the script. Adjust the code as needed based on your specific requirements and environment.
+"""
+
 import os
 from slack import WebClient
 from slack.errors import SlackApiError
